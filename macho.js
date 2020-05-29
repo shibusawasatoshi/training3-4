@@ -134,6 +134,7 @@ function voicecount_up(){
     if(bgmcount_up > 2){　
         const down_promice=new Promise((resolve,)=>{
             clearTimeout(upbgm);
+            bgmup.play();
             setTimeout(()=>{
                 resolve();
                 console.log('a');
